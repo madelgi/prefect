@@ -98,6 +98,7 @@ class LocalAgent(Agent):
             "s3-flow-storage",
             "github-flow-storage",
             "webhook-flow-storage",
+            "bitbucket-flow-storage"
         ]
         for label in all_storage_labels:
             if label not in self.labels:

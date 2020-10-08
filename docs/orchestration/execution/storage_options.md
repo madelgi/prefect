@@ -119,6 +119,12 @@ Flows registered with this storage option will automatically be labeled with `"g
 GitHub storage uses a [personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for authenticating with repositories.
 :::
 
+## Bitbucket 
+
+[Bitbucket Storage](/api/latest/environments/storage.html#bitbucket) is a storage option that uploads flows to a Bitbucket repository as `.py` files.
+
+The [file base storage](/core/idioms/file-based.html) idiom contains a Github storage example that can be easily adapted to Bitbucket.
+
 ## Docker
 
 [Docker Storage](/api/latest/environments/storage.html#docker) is a storage option that puts flows inside of a Docker image and pushes them to a container registry. This method of Storage has deployment compatability with the [Docker Agent](/orchestration/agents/docker.html), [Kubernetes Agent](/orchestration/agents/kubernetes.html), and [Fargate Agent](/orchestration/agents/fargate.html).
